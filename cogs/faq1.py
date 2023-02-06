@@ -4,8 +4,13 @@ from discord.ext import commands
 class faq1(commands.Cog, name='faq1'):
 	def __init__(self, bot):
 		self.bot = bot
+		
+#User definition
+user = discord.utils.get(client.users, name="USERNAME", discriminator="1234")
+if user is None:
+    print("User not found")
 
-
+#slash command
 	@commands.slash_command(description='Duda frecuente sobre como entrar al servidor')
 	async def faq1(self, ctx):
 		await ctx.respond(f"""
