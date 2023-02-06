@@ -9,7 +9,7 @@ class faq5(commands.Cog, name='faq5'):
 	@commands.slash_command(description='Dudas frecuentes sobre problemas ingame')
 	async def faq5(self, ctx):
 		await ctx.respond(f"""
-        Hola **{ctx.author}**, gracias por unirte a la comunidad de Project Zone Online.
+        Hola **{ctx.author.mention}**, gracias por unirte a la comunidad de Project Zone Online.
 
         > __**Problemas típicos Ingame:**__
         
