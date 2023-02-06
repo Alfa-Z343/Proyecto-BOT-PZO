@@ -9,7 +9,7 @@ class faq2(commands.Cog, name='faq2'):
 	@commands.slash_command(description='Duda frecuente sobre como jugar con otra gente')
 	async def faq2(self, ctx):
 		await ctx.respond(f"""
-        Hola **{ctx.author}**, gracias por unirte a la comunidad de Project Zone Online.
+        Hola **{ctx.author.mention}**, gracias por unirte a la comunidad de Project Zone Online.
 
         > __**Respuesta a las preguntas: ¿Alguien juega? ¿Juegan project zomboid en este servidor?**__
         > Si, hay numerosos usuarios que juegan en este servidor, tanto en el servidor ingame de project zomboid, como cooperativos entre ellos.
