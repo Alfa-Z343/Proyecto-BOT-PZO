@@ -9,7 +9,7 @@ class faq3(commands.Cog, name='faq3'):
 	@commands.slash_command(description='Duda frecuente sobre los wipes y actividad del servidor')
 	async def faq3(self, ctx):
 		await ctx.respond(f"""
-        Hola **{ctx.author}**, gracias por unirte a la comunidad de Project Zone Online.
+        Hola **{ctx.author.mention}**, gracias por unirte a la comunidad de Project Zone Online.
 
         > __**Información sobre wipes y actividad del servidor**__
         > Los wipes en este servidor suelen durar entre 2, 3 o 4 meses, dependiendo de la actividad y las votaciones de los usuarios.
