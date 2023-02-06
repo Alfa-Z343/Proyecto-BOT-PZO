@@ -9,7 +9,7 @@ class faq4(commands.Cog, name='faq4'):
 	@commands.slash_command(description='Duda frecuente sobre configuración del servidor')
 	async def faq4(self, ctx):
 		await ctx.respond(f"""
-        Hola **{ctx.author}**, gracias por unirte a la comunidad de Project Zone Online.
+        Hola **{ctx.author.mention}**, gracias por unirte a la comunidad de Project Zone Online.
 
         __**Información general sobre el servidor**__
         
