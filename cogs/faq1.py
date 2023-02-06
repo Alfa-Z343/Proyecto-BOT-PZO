@@ -9,7 +9,7 @@ class faq1(commands.Cog, name='faq1'):
 	@commands.slash_command(description='Duda frecuente sobre como entrar al servidor')
 	async def faq1(self, ctx):
 		await ctx.respond(f"""
-        Hola **{ctx.author}**, gracias por unirte a la comunidad de Project Zone Online.
+        Hola **{user.mention}**, gracias por unirte a la comunidad de Project Zone Online.
 
         > __**La pregunta clásica: ¿Como me uno al servidor?**__
         > Antes de pensar siquiera en unirte al servidor ingame, por favor recuerda reclamar el rol servidor ingame en el canal de autoroles
